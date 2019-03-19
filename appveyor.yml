@@ -2,7 +2,7 @@ image: Visual Studio 2017
 
 build_script:
     - cmd: cd hw_task1.2
-    - cmd: dotnet restore 
+    - cmd: dotnet restore hw_task1.2
     - cmd: dotnet build
 
 test_script:
