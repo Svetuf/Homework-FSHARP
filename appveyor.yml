@@ -5,7 +5,3 @@ before_build:
 
 build:
 project: hw_task1.2/hw_task1.2.sln
-
-test_script:
-- nunit3-console  hw_task1.2/hw_task1.2.sln \
---result=myresults.xml;format=AppVeyor
