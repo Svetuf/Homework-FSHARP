@@ -2,3 +2,4 @@
     a + b
 let mult a b = 
     a * b
+let d = 5
