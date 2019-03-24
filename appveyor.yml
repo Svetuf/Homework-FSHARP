@@ -1,6 +1,5 @@
-image: Visual Studio 2017 
-
-build_script: 
-    - For /R %%I in (*.sln) do dotnet test %%I
-
-test: off
+image: Visual Studio 2017
+before_build:
+- nuget restore /hw_task1.2/hw_task1.2.sln
+build:
+project: /hw_task1.2/hw_task1.2.sln
