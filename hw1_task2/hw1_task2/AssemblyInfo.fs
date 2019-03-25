@@ -1,4 +1,4 @@
-﻿namespace hw_task1._2.AssemblyInfo
+﻿namespace hw1_task2.AssemblyInfo
 
 open System.Reflection
 open System.Runtime.CompilerServices
@@ -7,11 +7,11 @@ open System.Runtime.InteropServices
 // Общие сведения о сборке можно задать с помощью следующего 
 // набора атрибутов. Отредактируйте эти значения атрибутов, чтобы изменить сведения,
 // связанные с этой сборкой.
-[<assembly: AssemblyTitle("hw_task1.2")>]
+[<assembly: AssemblyTitle("hw1_task2")>]
 [<assembly: AssemblyDescription("")>]
 [<assembly: AssemblyConfiguration("")>]
 [<assembly: AssemblyCompany("HP Inc.")>]
-[<assembly: AssemblyProduct("hw_task1.2")>]
+[<assembly: AssemblyProduct("hw1_task2")>]
 [<assembly: AssemblyCopyright("Copyright © HP Inc. 2019")>]
 [<assembly: AssemblyTrademark("")>]
 [<assembly: AssemblyCulture("")>]
@@ -22,7 +22,7 @@ open System.Runtime.InteropServices
 [<assembly: ComVisible(false)>]
 
 // Следующий GUID служит для идентификации библиотеки типов, если этот проект видим для COM
-[<assembly: Guid("a4a67261-ff9f-4d2b-a7a4-34697d155cd7")>]
+[<assembly: Guid("2d81425c-3774-424b-a8df-209e164f124d")>]
 
 // Сведения о версии сборки состоят из следующих четырех значений:
 // 

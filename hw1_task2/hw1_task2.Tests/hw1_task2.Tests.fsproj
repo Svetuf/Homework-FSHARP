@@ -9,14 +9,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>a4a67261-ff9f-4d2b-a7a4-34697d155cd7</ProjectGuid>
+    <ProjectGuid>e32b478e-b273-4ae2-9d49-867af02d9d5f</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>hw_task1._2</RootNamespace>
-    <AssemblyName>hw_task1._2</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RootNamespace>hw1_task2.Tests</RootNamespace>
+    <AssemblyName>hw1_task2.Tests</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFSharpCoreVersion>4.4.1.0</TargetFSharpCoreVersion>
-    <Name>hw_task1.2</Name>
+    <Name>hw1_task2.Tests</Name>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>
@@ -66,15 +66,16 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="FSharp.Core">
+      <HintPath>..\packages\FSharp.Core.4.2.3\lib\net45\FSharp.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="FsUnit.NUnit">
+      <HintPath>..\packages\FsUnit.3.4.0\lib\net46\FsUnit.NUnit.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.VisualStudio.CodeCoverage.Shim">
       <HintPath>..\packages\Microsoft.CodeCoverage.16.0.1\lib\net45\Microsoft.VisualStudio.CodeCoverage.Shim.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib" />
-    <Reference Include="FSharp.Core">
-      <Name>FSharp.Core</Name>
-      <AssemblyName>FSharp.Core.dll</AssemblyName>
-      <HintPath>$(MSBuildProgramFiles32)\Reference Assemblies\Microsoft\FSharp\.NETFramework\v4.0\$(TargetFSharpCoreVersion)\FSharp.Core.dll</HintPath>
-    </Reference>
     <Reference Include="nunit.framework">
       <HintPath>..\packages\NUnit.3.11.0\lib\net45\nunit.framework.dll</HintPath>
     </Reference>
@@ -85,6 +86,13 @@
       <HintPath>..\packages\System.ValueTuple.4.3.0\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
       <Private>True</Private>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\hw1_task2\hw1_task2.fsproj">
+      <Name>hw1_task2</Name>
+      <Project>{2d81425c-3774-424b-a8df-209e164f124d}</Project>
+      <Private>True</Private>
+    </ProjectReference>
   </ItemGroup>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
