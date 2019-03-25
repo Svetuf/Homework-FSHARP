@@ -2,4 +2,4 @@ image: Visual Studio 2017
 before_build:
 - nuget restore TestBlet/TestBlet.sln
 build:
-project: TestBlet/TestBlet.sln
+project: TestBlet.sln
