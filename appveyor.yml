@@ -4,4 +4,4 @@ before_build:
 build:
  TestBlet/TestBlet.sln
 test_script:
-- dotnet test TestBlet/TestBlet.sln
+ - dotnet test TestBlet/TestBlet.sln
