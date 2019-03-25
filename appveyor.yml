@@ -3,5 +3,6 @@ before_build:
 - nuget restore TestBlet/TestBlet.sln
 build:
  TestBlet/TestBlet.sln
+
 - nunit3-console TestBlet/TestBlet.sln \
  --result=myresults.xml;format=AppVeyor
