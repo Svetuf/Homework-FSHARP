@@ -14,5 +14,5 @@
         | x when x > 2  -> loop (n - 2) 1 1
         | x when x < 1 -> raise (WrongInputError("The given number is below zero."))
 
-    let index = 18
+    let index = 17
     let result = fibonacci index
