@@ -1,6 +1,6 @@
 
 image: Visual Studio 2017
 before_build:
-- nuget restore hw1_task3/hw1_task3.sln
+- nuget restore hw1_task4/hw1_task4.sln
 build:
- hw1_task3/hw1_task3.sln
+ hw1_task4/hw1_task4.sln
