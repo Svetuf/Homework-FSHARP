@@ -17,6 +17,6 @@
         findElement [] 0 |> should equal (None)
 
     [<Test>]
-    let ``The index of element "2" in array [6;3;2;2;6;2;3;4] is None`` () =
-        findElement [6;3;4;5;6;2;3;4] 2 |> should equal (Some(3))
+    let ``The index of element "2" in array [6;3;2;2;6;2;3;4] is Some(6)`` () =
+        findElement [6;3;4;5;6;2;3;4] 2 |> should equal (Some(6))
 
