@@ -9,14 +9,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>fe4e02ed-25a2-4dae-b9e5-aedaa76e098d</ProjectGuid>
+    <ProjectGuid>2ce52dcc-8296-4a55-98bf-afc930dfba86</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>hw2_task1.Tests</RootNamespace>
-    <AssemblyName>hw2_task1.Tests</AssemblyName>
+    <RootNamespace>hw2_task2.Tests</RootNamespace>
+    <AssemblyName>hw2_task2.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFSharpCoreVersion>4.4.1.0</TargetFSharpCoreVersion>
-    <Name>hw2_task1.Tests</Name>
+    <Name>hw2_task2.Tests</Name>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
   </PropertyGroup>
@@ -88,9 +88,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\hw2_task1\hw2_task1.fsproj">
-      <Name>hw2_task1</Name>
-      <Project>{60e4877b-7813-4160-93da-ea813dacc3e0}</Project>
+    <ProjectReference Include="..\hw2_task2\hw2_task2.fsproj">
+      <Name>hw2_task2</Name>
+      <Project>{95ded4ee-42e6-4b9c-afa3-7210385fafbe}</Project>
       <Private>True</Private>
     </ProjectReference>
   </ItemGroup>
