@@ -11,8 +11,7 @@
         let rec loop upperbound firstNum secNum acc =
             if(secNum <= upperbound)
                 then loop upperbound secNum (firstNum + secNum) (acc + (isEven secNum))
-            else 1089154
+            else acc
         loop 1000000 1 1 0
-    
-    let res = summOfEvenFibonacciNums
+
          
