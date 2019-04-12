@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>test1_task1</name></assembly>
+<members>
+<member name="P:logic.summOfEvenFibonacciNums">
+<summary>
+ a main function
+</summary>
+</member>
+<member name="M:logic.isEven(System.Int32)">
+<summary>
+ return n if n is even number, 0 in other ways
+</summary>
+</member>
+</members>
+</doc>
