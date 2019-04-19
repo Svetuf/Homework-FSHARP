@@ -2,7 +2,7 @@
 
     open NUnit.Framework
     open FsUnit
-    open logic
+    open Logic
     
     [<Test>]
     let ``5 Fibonacci number`` () =
@@ -10,7 +10,7 @@
 
     [<Test>]
     let ``-1 Fibonacci number`` () =
-        fibonacci 5 |> should equal "The given number is below zero."
+        fibonacci -1 |> should equal "The given number is below zero."
 
     [<Test>]
     let ``22 Fibonacci number`` () =
