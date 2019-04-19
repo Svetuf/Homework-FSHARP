@@ -1,4 +1,4 @@
-﻿module tests
+﻿module Tests
 
     open NUnit.Framework
     open FsUnit
@@ -7,10 +7,6 @@
     [<Test>]
     let ``5 Fibonacci number`` () =
         fibonacci 5 |> should equal 5
-
-    [<Test>]
-    let ``-1 Fibonacci number`` () =
-        fibonacci -1 |> should equal "The given number is below zero."
 
     [<Test>]
     let ``22 Fibonacci number`` () =
