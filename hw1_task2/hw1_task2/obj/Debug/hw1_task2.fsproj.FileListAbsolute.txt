@@ -1,0 +1,11 @@
+C:\Users\Илья\Documents\GitHub\Homework-FSHARP\hw1_task2\hw1_task2\bin\Debug\hw1_task2.exe.config
+C:\Users\Илья\Documents\GitHub\Homework-FSHARP\hw1_task2\hw1_task2\bin\Debug\hw1_task2.XML
+C:\Users\Илья\Documents\GitHub\Homework-FSHARP\hw1_task2\hw1_task2\bin\Debug\hw1_task2.exe
+C:\Users\Илья\Documents\GitHub\Homework-FSHARP\hw1_task2\hw1_task2\bin\Debug\hw1_task2.pdb
+C:\Users\Илья\Documents\GitHub\Homework-FSHARP\hw1_task2\hw1_task2\bin\Debug\FSharp.Core.dll
+C:\Users\Илья\Documents\GitHub\Homework-FSHARP\hw1_task2\hw1_task2\bin\Debug\System.ValueTuple.dll
+C:\Users\Илья\Documents\GitHub\Homework-FSHARP\hw1_task2\hw1_task2\bin\Debug\FSharp.Core.xml
+C:\Users\Илья\Documents\GitHub\Homework-FSHARP\hw1_task2\hw1_task2\bin\Debug\ru\FSharp.Core.resources.dll
+C:\Users\Илья\Documents\GitHub\Homework-FSHARP\hw1_task2\hw1_task2\obj\Debug\hw1_task2.fsprojResolveAssemblyReference.cache
+C:\Users\Илья\Documents\GitHub\Homework-FSHARP\hw1_task2\hw1_task2\obj\Debug\hw1_task2.exe
+C:\Users\Илья\Documents\GitHub\Homework-FSHARP\hw1_task2\hw1_task2\obj\Debug\hw1_task2.pdb
