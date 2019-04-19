@@ -5,14 +5,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>c190ba3a-7cef-477c-90b0-2a37feb5a435</ProjectGuid>
+    <ProjectGuid>7eb5a07c-c5dc-4405-82d5-610567690b51</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>hw2_task3</RootNamespace>
-    <AssemblyName>hw2_task3</AssemblyName>
+    <RootNamespace>hw1_task3</RootNamespace>
+    <AssemblyName>hw1_task3</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <TargetFSharpCoreVersion>4.4.1.0</TargetFSharpCoreVersion>
-    <Name>hw2_task3</Name>
+    <Name>hw1_task3</Name>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
