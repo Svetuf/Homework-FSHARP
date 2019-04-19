@@ -1,0 +1,6 @@
+
+image: Visual Studio 2017
+before_build:
+- nuget restore hw2_task1/hw2_task1.sln
+build:
+ hw2_task1/hw2_task1.sln
