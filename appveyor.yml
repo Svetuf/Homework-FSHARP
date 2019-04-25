@@ -1,0 +1,13 @@
+
+image: Visual Studio 2017
+
+
+before_build:
+
+
+- nuget restore homework3_task1/homework3_task1.sln
+
+
+build:
+
+ homework3_task1/homework3_task1.sln
