@@ -1,0 +1,10 @@
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw3_task3\hw3_task3\bin\Debug\hw3_task3.exe.config
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw3_task3\hw3_task3\bin\Debug\hw3_task3.XML
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw3_task3\hw3_task3\bin\Debug\hw3_task3.exe
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw3_task3\hw3_task3\bin\Debug\hw3_task3.pdb
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw3_task3\hw3_task3\bin\Debug\FSharp.Core.dll
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw3_task3\hw3_task3\bin\Debug\System.ValueTuple.dll
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw3_task3\hw3_task3\bin\Debug\FSharp.Core.xml
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw3_task3\hw3_task3\bin\Debug\ru\FSharp.Core.resources.dll
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw3_task3\hw3_task3\obj\Debug\hw3_task3.exe
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw3_task3\hw3_task3\obj\Debug\hw3_task3.pdb
