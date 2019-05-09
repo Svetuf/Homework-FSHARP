@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doc>
+<assembly><name>hw3_task3</name></assembly>
+<members>
+<member name="T:Logic.Expression">
+<summary>
+ This type support operations for integers : +,-,*,/    
+</summary>
+</member>
+<member name="M:Logic.calculus(Logic.Expression)">
+<summary>
+ A main fuction which parses the expression tree
+ and returns the result of the calculation.
+</summary>
+</member>
+</members>
+</doc>
