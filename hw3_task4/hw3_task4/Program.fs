@@ -15,7 +15,5 @@
                checkForPrime 2
 
     /// Function that make an infinite sequenxe of prime numbers
-    let infinitPrimes () =
+    let infinitPrimes n =
         Seq.initInfinite (fun i -> i) |> Seq.filter(isPrime) 
-
-    do infinitPrimes() |> ignore
