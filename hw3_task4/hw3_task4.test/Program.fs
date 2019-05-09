@@ -3,7 +3,7 @@
     open NUnit.Framework
     open FsUnit
     open Logic
-
+    
     [<Test>]
     let ``First five primes are [2; 3; 5; 7; 11]`` () =
         infinitPrimes () |> Seq.take 5 |> Seq.toArray |> should equal [2; 3; 5; 7; 11]
