@@ -1,0 +1,12 @@
+image: Visual Studio 2017
+
+
+before_build:
+
+
+- nuget restore hw3_task4/hw3_task4.sln
+
+
+build:
+
+ hw3_task4/hw3_task4.sln
