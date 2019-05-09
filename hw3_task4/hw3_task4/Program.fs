@@ -17,3 +17,5 @@
     /// Function that make an infinite sequenxe of prime numbers
     let infinitPrimes () =
         Seq.initInfinite (fun i -> i) |> Seq.filter(isPrime) 
+
+    do infinitPrimes() |> ignore
