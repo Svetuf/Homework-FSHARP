@@ -1,6 +1,6 @@
 ﻿module Logic
 
-    let rec concat list1 list2 =
-        match list1 with
-        | [] -> list2
-        | h::tail -> concat tail (h::list2)
+    let rec concat a b =
+        match a with
+        | [] -> b
+        | h::tail -> concat tail (h::b)
