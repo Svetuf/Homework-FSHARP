@@ -1,0 +1,8 @@
+image: Visual Studio 2017
+before_build:
+- nuget restore testing/testing.sln
+build:
+project: testing/testing.sln
+test_script:
+- nunit3-console testing/testing.sln \
+--result=myresults.xml;format=AppVeyor
