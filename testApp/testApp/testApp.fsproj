@@ -52,14 +52,14 @@
   </ItemGroup>
   <ItemGroup>
     <Reference Include="FSharp.Core">
-      <HintPath>..\..\..\..\..\..\Users\iluch\source\repos\testApp\packages\FSharp.Core.4.6.2\lib\net45\FSharp.Core.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Users\iluch\source\repos\testApp\packages\FSharp.Core.4.5.2\lib\net45\FSharp.Core.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Numerics" />
     <Reference Include="System.ValueTuple">
-      <HintPath>..\..\..\..\..\..\Users\iluch\source\repos\testApp\packages\System.ValueTuple.4.4.0\lib\net461\System.ValueTuple.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Users\iluch\source\repos\testApp\packages\System.ValueTuple.4.5.0\lib\net461\System.ValueTuple.dll</HintPath>
       <Private>True</Private>
     </Reference>
   </ItemGroup>
