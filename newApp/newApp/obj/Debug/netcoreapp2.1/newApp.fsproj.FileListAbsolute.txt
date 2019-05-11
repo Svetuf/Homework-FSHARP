@@ -1,0 +1,10 @@
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\newApp\newApp\bin\Debug\netcoreapp2.1\newApp.deps.json
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\newApp\newApp\bin\Debug\netcoreapp2.1\newApp.runtimeconfig.json
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\newApp\newApp\bin\Debug\netcoreapp2.1\newApp.runtimeconfig.dev.json
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\newApp\newApp\bin\Debug\netcoreapp2.1\newApp.dll
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\newApp\newApp\bin\Debug\netcoreapp2.1\newApp.pdb
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\newApp\newApp\obj\Debug\netcoreapp2.1\newApp.fsprojAssemblyReference.cache
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\newApp\newApp\obj\Debug\netcoreapp2.1\newApp.AssemblyInfoInputs.cache
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\newApp\newApp\obj\Debug\netcoreapp2.1\newApp.AssemblyInfo.fs
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\newApp\newApp\obj\Debug\netcoreapp2.1\newApp.dll
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\newApp\newApp\obj\Debug\netcoreapp2.1\newApp.pdb

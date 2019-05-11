@@ -1,0 +1,16 @@
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\newApp\newApp.test\bin\Debug\netcoreapp2.1\newApp.dll
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\newApp\newApp.test\obj\Debug\netcoreapp2.1\newApp.test.AssemblyInfoInputs.cache
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\newApp\newApp.test\obj\Debug\netcoreapp2.1\newApp.test.AssemblyInfo.fs
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\newApp\newApp.test\obj\Debug\netcoreapp2.1\newApp.test.fsprojAssemblyReference.cache
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\newApp\newApp.test\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\newApp\newApp.test\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\newApp\newApp.test\bin\Debug\netcoreapp2.1\nunit.engine.netstandard.dll
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\newApp\newApp.test\bin\Debug\netcoreapp2.1\newApp.test.deps.json
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\newApp\newApp.test\bin\Debug\netcoreapp2.1\newApp.test.runtimeconfig.json
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\newApp\newApp.test\bin\Debug\netcoreapp2.1\newApp.test.runtimeconfig.dev.json
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\newApp\newApp.test\bin\Debug\netcoreapp2.1\newApp.test.dll
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\newApp\newApp.test\bin\Debug\netcoreapp2.1\newApp.test.pdb
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\newApp\newApp.test\bin\Debug\netcoreapp2.1\newApp.pdb
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\newApp\newApp.test\obj\Debug\netcoreapp2.1\newApp.test.fsproj.CopyComplete
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\newApp\newApp.test\obj\Debug\netcoreapp2.1\newApp.test.dll
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\newApp\newApp.test\obj\Debug\netcoreapp2.1\newApp.test.pdb

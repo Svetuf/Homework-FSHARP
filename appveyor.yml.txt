@@ -1,12 +1,8 @@
 image: Visual Studio 2017
 
+build_script:
+    - cmd: cd newApp
+    - cmd: dotnet build
 
-before_build:
-
-
-- nuget restore newP/newP.sln
-
-
-build:
-
- newP/newP.sln
+test_script:
+  - dotnet test
