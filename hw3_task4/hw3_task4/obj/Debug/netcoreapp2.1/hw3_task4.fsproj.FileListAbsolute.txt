@@ -1,0 +1,10 @@
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw3_task4\hw3_task4\bin\Debug\netcoreapp2.1\hw3_task4.deps.json
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw3_task4\hw3_task4\bin\Debug\netcoreapp2.1\hw3_task4.runtimeconfig.json
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw3_task4\hw3_task4\bin\Debug\netcoreapp2.1\hw3_task4.runtimeconfig.dev.json
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw3_task4\hw3_task4\bin\Debug\netcoreapp2.1\hw3_task4.dll
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw3_task4\hw3_task4\bin\Debug\netcoreapp2.1\hw3_task4.pdb
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw3_task4\hw3_task4\obj\Debug\netcoreapp2.1\hw3_task4.fsprojAssemblyReference.cache
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw3_task4\hw3_task4\obj\Debug\netcoreapp2.1\hw3_task4.AssemblyInfoInputs.cache
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw3_task4\hw3_task4\obj\Debug\netcoreapp2.1\hw3_task4.AssemblyInfo.fs
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw3_task4\hw3_task4\obj\Debug\netcoreapp2.1\hw3_task4.dll
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw3_task4\hw3_task4\obj\Debug\netcoreapp2.1\hw3_task4.pdb
