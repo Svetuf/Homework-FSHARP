@@ -1,0 +1,16 @@
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw1_task2\hw1_task2.tests\bin\Debug\netcoreapp2.1\hw1_task2.dll
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw1_task2\hw1_task2.tests\obj\Debug\netcoreapp2.1\hw1_task2.tests.AssemblyInfoInputs.cache
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw1_task2\hw1_task2.tests\obj\Debug\netcoreapp2.1\hw1_task2.tests.AssemblyInfo.fs
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw1_task2\hw1_task2.tests\obj\Debug\netcoreapp2.1\hw1_task2.tests.fsprojAssemblyReference.cache
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw1_task2\hw1_task2.tests\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw1_task2\hw1_task2.tests\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw1_task2\hw1_task2.tests\bin\Debug\netcoreapp2.1\nunit.engine.netstandard.dll
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw1_task2\hw1_task2.tests\bin\Debug\netcoreapp2.1\hw1_task2.tests.deps.json
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw1_task2\hw1_task2.tests\bin\Debug\netcoreapp2.1\hw1_task2.tests.runtimeconfig.json
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw1_task2\hw1_task2.tests\bin\Debug\netcoreapp2.1\hw1_task2.tests.runtimeconfig.dev.json
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw1_task2\hw1_task2.tests\bin\Debug\netcoreapp2.1\hw1_task2.tests.dll
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw1_task2\hw1_task2.tests\bin\Debug\netcoreapp2.1\hw1_task2.tests.pdb
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw1_task2\hw1_task2.tests\bin\Debug\netcoreapp2.1\hw1_task2.pdb
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw1_task2\hw1_task2.tests\obj\Debug\netcoreapp2.1\hw1_task2.tests.fsproj.CopyComplete
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw1_task2\hw1_task2.tests\obj\Debug\netcoreapp2.1\hw1_task2.tests.dll
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw1_task2\hw1_task2.tests\obj\Debug\netcoreapp2.1\hw1_task2.tests.pdb

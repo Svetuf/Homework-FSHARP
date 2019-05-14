@@ -1,0 +1,10 @@
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw1_task2\hw1_task2\bin\Debug\netcoreapp2.1\hw1_task2.deps.json
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw1_task2\hw1_task2\bin\Debug\netcoreapp2.1\hw1_task2.runtimeconfig.json
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw1_task2\hw1_task2\bin\Debug\netcoreapp2.1\hw1_task2.runtimeconfig.dev.json
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw1_task2\hw1_task2\bin\Debug\netcoreapp2.1\hw1_task2.dll
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw1_task2\hw1_task2\bin\Debug\netcoreapp2.1\hw1_task2.pdb
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw1_task2\hw1_task2\obj\Debug\netcoreapp2.1\hw1_task2.fsprojAssemblyReference.cache
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw1_task2\hw1_task2\obj\Debug\netcoreapp2.1\hw1_task2.AssemblyInfoInputs.cache
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw1_task2\hw1_task2\obj\Debug\netcoreapp2.1\hw1_task2.AssemblyInfo.fs
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw1_task2\hw1_task2\obj\Debug\netcoreapp2.1\hw1_task2.dll
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\hw1_task2\hw1_task2\obj\Debug\netcoreapp2.1\hw1_task2.pdb
