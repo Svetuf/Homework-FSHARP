@@ -1,0 +1,24 @@
+\documentclass[12pt]{article}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\setdefaultlanguage{russian}
+\setmainfont[Mapping=tex-text]{CMU Serif}
+
+\begin{document}
+
+Доказать S K K = I : \newline 
+
+$ S\:K\:K = (\lambda x\:y\:z.(x\:z\:(y\:z)) )\: (\lambda x\:y.x) \: (\lambda x\:y.x)  = $ \newline 
+
+$ (\lambda x\:y\:z.(x\:z\:(y\:z))) \: (\lambda m\:n.m) \: (\lambda x\:y.x)  = $ \newline 
+
+$ (\lambda y\:z.((\lambda m\:n.m )\:z\:(y\:z))) \:  (\lambda x\:y.x)  = $ \newline 
+
+$ (\lambda y\:z.z) \:  (\lambda x\:y.x)  = $ \newline 
+
+$ (\lambda y.\lambda z.z) \:  (\lambda x\:y.x)  = $ \newline 
+
+$ (\lambda y.\lambda z.z) \:  (\lambda s\:t.s)  = $ \newline 
+
+$ \lambda z.z = I$ \newline 
+\end{document}
