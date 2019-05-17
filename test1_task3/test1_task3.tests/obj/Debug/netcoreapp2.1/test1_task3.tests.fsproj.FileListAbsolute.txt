@@ -1,0 +1,16 @@
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\test1_task3\test1_task3.tests\bin\Debug\netcoreapp2.1\test1_task3.dll
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\test1_task3\test1_task3.tests\obj\Debug\netcoreapp2.1\test1_task3.tests.fsprojAssemblyReference.cache
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\test1_task3\test1_task3.tests\obj\Debug\netcoreapp2.1\test1_task3.tests.AssemblyInfoInputs.cache
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\test1_task3\test1_task3.tests\obj\Debug\netcoreapp2.1\test1_task3.tests.AssemblyInfo.fs
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\test1_task3\test1_task3.tests\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.dll
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\test1_task3\test1_task3.tests\bin\Debug\netcoreapp2.1\NUnit3.TestAdapter.pdb
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\test1_task3\test1_task3.tests\bin\Debug\netcoreapp2.1\nunit.engine.netstandard.dll
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\test1_task3\test1_task3.tests\bin\Debug\netcoreapp2.1\test1_task3.tests.deps.json
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\test1_task3\test1_task3.tests\bin\Debug\netcoreapp2.1\test1_task3.tests.runtimeconfig.json
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\test1_task3\test1_task3.tests\bin\Debug\netcoreapp2.1\test1_task3.tests.runtimeconfig.dev.json
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\test1_task3\test1_task3.tests\bin\Debug\netcoreapp2.1\test1_task3.tests.dll
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\test1_task3\test1_task3.tests\bin\Debug\netcoreapp2.1\test1_task3.tests.pdb
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\test1_task3\test1_task3.tests\bin\Debug\netcoreapp2.1\test1_task3.pdb
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\test1_task3\test1_task3.tests\obj\Debug\netcoreapp2.1\test1_task3.tests.fsproj.CopyComplete
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\test1_task3\test1_task3.tests\obj\Debug\netcoreapp2.1\test1_task3.tests.dll
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\test1_task3\test1_task3.tests\obj\Debug\netcoreapp2.1\test1_task3.tests.pdb
