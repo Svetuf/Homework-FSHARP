@@ -1,0 +1,10 @@
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\test1_task3\test1_task3\bin\Debug\netcoreapp2.1\test1_task3.deps.json
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\test1_task3\test1_task3\bin\Debug\netcoreapp2.1\test1_task3.runtimeconfig.json
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\test1_task3\test1_task3\bin\Debug\netcoreapp2.1\test1_task3.runtimeconfig.dev.json
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\test1_task3\test1_task3\bin\Debug\netcoreapp2.1\test1_task3.dll
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\test1_task3\test1_task3\bin\Debug\netcoreapp2.1\test1_task3.pdb
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\test1_task3\test1_task3\obj\Debug\netcoreapp2.1\test1_task3.fsprojAssemblyReference.cache
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\test1_task3\test1_task3\obj\Debug\netcoreapp2.1\test1_task3.AssemblyInfoInputs.cache
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\test1_task3\test1_task3\obj\Debug\netcoreapp2.1\test1_task3.AssemblyInfo.fs
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\test1_task3\test1_task3\obj\Debug\netcoreapp2.1\test1_task3.dll
+C:\Users\iluch\Documents\GitHub\Homework-FSHARP\test1_task3\test1_task3\obj\Debug\netcoreapp2.1\test1_task3.pdb
