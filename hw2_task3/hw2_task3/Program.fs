@@ -1,4 +1,4 @@
-﻿module logic 
+﻿module Logic 
 
     let rec split ls left right =
         match ls with
@@ -10,18 +10,18 @@
         match list1, list2 with
         | [], list -> list
         | list, [] -> list
-        | firstElem1::tailtList1, firstElem2::tailtList2 when 
+        | firstElem1::tailList1, firstElem2::tailList2 when 
             firstElem1 < firstElem2 -> 
-                firstElem1::(merge tailtList1 (firstElem2::tailtList2))
-        | firstList, firstElem2::tailtList2 -> 
-            firstElem2::(merge firstList tailtList2)
+                firstElem1::(merge tailList1 (firstElem2::tailList2))
+        | firstList, firstElem2::tailList2 -> 
+            firstElem2::(merge firstList tailList2)
 
     let rec mergeSort list =
         match (List.length list) with
         | 1 -> list
-        | 2 -> if(list.Head < (List.item 1 list)) then list
+        | 2 -> if list.Head < (List.item 1 list) then list
                else (List.rev list)
         | _ -> let (a,b) = (split list [] [])
                merge (mergeSort a) (mergeSort b)
                
-    let a = mergeSort [3;2;1;0;7;6;5;5;5;5;6;7;8]
+    let a = mergeSort [3; 2; 1; 0; 7; 6; 5; 5; 5; 5; 6; 7; 8]
