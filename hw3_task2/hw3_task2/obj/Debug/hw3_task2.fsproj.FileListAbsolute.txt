@@ -1,0 +1,10 @@
+C:\Users\iluch\documents\visual studio 2017\Projects\hw3_task2\hw3_task2\bin\Debug\hw3_task2.exe.config
+C:\Users\iluch\documents\visual studio 2017\Projects\hw3_task2\hw3_task2\bin\Debug\hw3_task2.XML
+C:\Users\iluch\documents\visual studio 2017\Projects\hw3_task2\hw3_task2\bin\Debug\hw3_task2.exe
+C:\Users\iluch\documents\visual studio 2017\Projects\hw3_task2\hw3_task2\bin\Debug\hw3_task2.pdb
+C:\Users\iluch\documents\visual studio 2017\Projects\hw3_task2\hw3_task2\bin\Debug\FSharp.Core.dll
+C:\Users\iluch\documents\visual studio 2017\Projects\hw3_task2\hw3_task2\bin\Debug\System.ValueTuple.dll
+C:\Users\iluch\documents\visual studio 2017\Projects\hw3_task2\hw3_task2\bin\Debug\FSharp.Core.xml
+C:\Users\iluch\documents\visual studio 2017\Projects\hw3_task2\hw3_task2\bin\Debug\ru\FSharp.Core.resources.dll
+C:\Users\iluch\documents\visual studio 2017\Projects\hw3_task2\hw3_task2\obj\Debug\hw3_task2.exe
+C:\Users\iluch\documents\visual studio 2017\Projects\hw3_task2\hw3_task2\obj\Debug\hw3_task2.pdb
