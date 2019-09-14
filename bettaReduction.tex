@@ -1,0 +1,21 @@
+\documentclass[12pt]{article}
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\setdefaultlanguage{russian}
+\setmainfont[Mapping=tex-text]{CMU Serif}
+
+\begin{document}
+
+Выполнить $\beta$ редукцию : \newline 
+
+$ ((\lambda a.(\lambda b.b b)\: (\lambda b.b b)) \:b) \:((\lambda c.(c\: b))\: (\lambda a.a)) = $ \newline 
+
+$ ((\lambda b.b\:b) (\lambda b.b\:b))\: ((\lambda c.(c\:b)) (\lambda a.a)) = $ \newline 
+
+$ ((\lambda b.b\:b) (\lambda b.b\:b)) \:((\lambda c.(c\:b)) (\lambda a.a)) = $ \newline 
+
+$ ((\lambda b.b\:b) (\lambda b.b\:b))\: ((\lambda a.a)\:b) = $ \newline 
+
+$ ((\lambda b.b\:b)\: (\lambda b.b\:b)) \: b $ \newline 
+
+\end{document}
