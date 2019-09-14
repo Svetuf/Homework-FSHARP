@@ -23,3 +23,7 @@
     [<Test>]
     let ``Empty seq``() =
         checkBraket "" |> should equal true
+
+    [<Test>]
+    let ``Wrong set from Yurii``() =
+        checkBraket "([)]" |> should equal false
