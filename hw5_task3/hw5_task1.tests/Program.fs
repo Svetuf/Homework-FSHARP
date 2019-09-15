@@ -6,24 +6,24 @@
 
     [<Test>]
     let ``One pair of brackets ()``() =
-        checkBraket "()" |> should equal true
+        checkBracket "()" |> should equal true
 
     [<Test>]
     let ``One pair of brackets []``() =
-        checkBraket "[]" |> should equal true
+        checkBracket "[]" |> should equal true
 
     [<Test>]
     let ``One pair of brackets {}``() =
-        checkBraket "{}" |> should equal true
+        checkBracket "{}" |> should equal true
 
     [<Test>]
     let ``Here is wrong seq``() =
-        checkBraket "{([Why i dont learn in ITMO?])}(Because i'm cool" |> should equal false
+        checkBracket "{([Why i dont learn in ITMO?])}(Because i'm cool" |> should equal false
 
     [<Test>]
     let ``Empty seq``() =
-        checkBraket "" |> should equal true
+        checkBracket "" |> should equal true
 
     [<Test>]
     let ``Wrong set from Yurii``() =
-        checkBraket "([)]" |> should equal false
+        checkBracket "([)]" |> should equal false
