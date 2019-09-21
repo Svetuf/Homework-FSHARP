@@ -15,17 +15,11 @@
 
         /// Finding name by given phone, return "Nothing" if not found.
         member this.FindNameByPhone phoneNumber (book: Map<string, string>) =
-            try
-                Map.findKey (fun key value -> value = phoneNumber) book
-            with
-                | :? System.Collections.Generic.KeyNotFoundException as e -> "Nothing"
+                Map.tryFindKey (fun key value -> value = phoneNumber) book
                 
         /// Finding phone by given name, return "Nothing" if not found.
         member this.FindPhoneByName name (book: Map<string, string>) =
-            try
-                Map.find name book
-            with
-                | :? System.Collections.Generic.KeyNotFoundException as e -> "Nothing"
+                Map.tryFind name book
 
         /// Printing all the book.
         member this.PrintPhoneBook (book: Map<string, string>) =
@@ -50,12 +44,13 @@
                 let res = formatter.Deserialize(inputStream)
                 unbox res
             try
-                let fsIn = new FileStream("PhoneBook.dat", FileMode.Open)
+                use fsIn = new FileStream("PhoneBook.dat", FileMode.Open)
                 let res : Map<string, string> = readValue fsIn            
                 fsIn.Close()
                 res
             with
-                | :? System.IO.FileNotFoundException -> printfn "Had not found file!"; Map.empty
+                | :? System.IO.FileNotFoundException -> printfn "Had not found file!";
+                                                        Map.empty
 
     // a way to use the book
     let rec loop (book: Map<string, string>) =
@@ -68,7 +63,6 @@
         printfn "input 7 to load book"
 
         let bookPhone = PhoneBook()
-        let mutable locBook = book
         let input = Console.ReadLine()
 
         match input with
@@ -76,26 +70,28 @@
         | "2" -> printfn "Input name and phone"
                  let name = Console.ReadLine()
                  let number = Console.ReadLine()
-                 locBook <- bookPhone.AddNote name number book
-                 loop locBook
+                 loop (bookPhone.AddNote name number book)
         | "3" -> printfn "input name"
                  let name = Console.ReadLine()
-                 let ans = bookPhone.FindPhoneByName name locBook
-                 Console.WriteLine(ans)
-                 loop locBook
+                 let ans = bookPhone.FindPhoneByName name book
+                 match ans with
+                 | Some(x) -> Console.WriteLine(x)
+                 | None -> Console.WriteLine("I found nothing")
+                 loop book
         | "4" -> printfn "input phone"
                  let phone = Console.ReadLine()
-                 let ans = bookPhone.FindNameByPhone phone locBook
-                 Console.WriteLine(ans)
-                 loop locBook
-        | "5" -> bookPhone.PrintPhoneBook locBook
-                 loop locBook
-        | "6" -> bookPhone.Serealize locBook
-                 loop locBook
-        | "7" -> locBook <- bookPhone.Deserealize
-                 loop locBook
+                 let ans = bookPhone.FindNameByPhone phone book
+                 match ans with
+                 | Some(x) -> Console.WriteLine(x)
+                 | None -> Console.WriteLine("I found nothing")
+                 loop book
+        | "5" -> bookPhone.PrintPhoneBook book
+                 loop book
+        | "6" -> bookPhone.Serealize book
+                 loop book
+        | "7" -> loop bookPhone.Deserealize
         | _ -> printfn "Tis command is not allowed, try again"
-               loop locBook
+               loop book
 
 
                 
