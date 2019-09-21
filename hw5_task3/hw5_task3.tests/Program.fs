@@ -6,57 +6,57 @@
 
     [<Test>]
     let ``Add new write`` () =
-        let mutable book = phoneBook ()
+        let mutable book = phoneBook()
+        let mutable res = Map.empty
         let mapToCompare = Map.empty
                               .Add("Person1", "123")
                               .Add("Person2", "456")
-        book.addNote "Person1" "123" |> ignore
-        book.addNote "Person2" "456" |> ignore
-        
-        book.phoneBook |> should equal mapToCompare
+        res <- book.addNote "Person1" "123" res
+        res <- book.addNote "Person2" "456" res
+        res |> should equal mapToCompare
 
     [<Test>]
     let ``Find phone by name`` () =
         let mutable book = phoneBook ()
-        let mapToCompare = Map.empty
-                              .Add("Person1", "123")
-                              .Add("Person2", "456")
-        book.addNote "Person1" "123" |> ignore
-        book.addNote "Person2" "456" |> ignore
+        let mutable res = Map.empty
+
+        res <- book.addNote "Person1" "123" res
+        res <- book.addNote "Person2" "456" res
         
-        book.findPhoneByName "Person1" |> should equal "123"
+        book.findPhoneByName "Person1" res |> should equal "123"
         
     [<Test>]
     let ``Find phone by name but wrong`` () =
         let mutable book = phoneBook ()
-        let mapToCompare = Map.empty
-                              .Add("Person1", "123")
-                              .Add("Person2", "456")
-        book.addNote "Person1" "123" |> ignore
-        book.addNote "Person2" "456" |> ignore
+        let mutable res = Map.empty
 
-        book.findPhoneByName "Person 1" |> should equal "Nothing"
+        res <- book.addNote "Person1" "123" res
+        res <- book.addNote "Person2" "456" res
+
+        book.findPhoneByName "Person 1" res |> should equal "Nothing"
 
     [<Test>]
     let ``Find name by phone`` () =
         let mutable book = phoneBook ()
-        let mapToCompare = Map.empty
-                              .Add("Person1", "123")
-                              .Add("Person2", "456")
-        book.addNote "Person1" "123" |> ignore
-        book.addNote "Person2" "456" |> ignore
+        let mutable res = Map.empty
 
-        book.findNameByPhone "123" |> should equal "Person1"
+        res <- book.addNote "Person1" "123" res
+        res <- book.addNote "Person2" "456" res
+
+        book.findNameByPhone "123" res |> should equal "Person1"
 
     [<Test>]
     let ``Serializing`` () =
         let mutable book = phoneBook ()
-        let mutable book2 = phoneBook ()
-        let mapToCompare = Map.empty
-                              .Add("Person1", "123")
-                              .Add("Person2", "456")
-        book.addNote "Person1" "123" |> ignore
-        book.addNote "Person2" "456" |> ignore
+        
+        let mutable toSave = Map.empty
+        let mutable res = Map.empty
 
-        book.serealize
-        book2.deserealize |> should equal "Successfully loaded data!"
+        toSave <- book.addNote "Person1" "123" toSave
+        toSave <- book.addNote "Person2" "456" toSave
+
+        book.serealize toSave
+
+        res <- book.deserealize
+
+        res |> should equal toSave
