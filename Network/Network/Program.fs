@@ -3,46 +3,48 @@
     open System
     open MathNet.Numerics.LinearAlgebra
 
-    // Operating system class. Сontains the OS name and the probability of infection for this OS.
+    // Operating system type. Сontains the OS name and the probability of infection for this OS.
     type OS = {name: string; probability: float} with
         static member Create name prob = {name = name; probability = prob}
 
     // Class of computer. Contains the OS type and the infection flag.
-    type Comp = {os: OS; mutable infected:bool} with
-        static member Create os inf  = {os = os; infected = inf}
+    type Comp(os: OS, infected:bool)=
+        let Os = os
+        let mutable infected = infected
 
         // Variable for generating random variables.
-        static member rnd = new Random()
+        static member Rnd = new Random()
         
         // Discrete time step. Determines whether this computer will be infected after this step.
-        member this.Tick = 
-            match this.infected with
+        member this.Tick =
+            match infected with
                 | true -> true
-                | false -> (Comp.rnd.NextDouble() <= this.os.probability)
+                | false -> (Comp.Rnd.NextDouble() <= Os.probability)
         
         // Function to infect this computer.
-        member this.infect =
-            this.infected <- true
+        member this.Infect =
+            infected <- true
 
         // Infected status.
-        member this.status =
-            this.infected
+        member this.Status =
+            infected
 
     // Network description class. Contains a list of all computers and an adjacency matrix.
-    type Network = {mutable computers: list<Comp>; matrix: Matrix<double>} with
-        static member Create computers matrix = {computers = computers; matrix = matrix}
+    type Network(computers: list<Comp>, matrix: Matrix<double>)=
+        let matrix = matrix
+        let computers = computers
 
         // Discrete time step. Makes calculations to infect computers.
         // At the end of the step, the infect() method is called for all infected computers.
         member this.Tick =
             let mutable infectedOnThisTurn = []
-            for i in 0 .. this.computers.Length - 1 do
-                if this.computers.Item(i).status then 
-                    for j in 0 .. this.matrix.ColumnCount - 1 do
-                        if this.matrix.Item(i,j) > 0.0 then
-                            if (this.computers.Item j).Tick then infectedOnThisTurn <- this.computers.Item(j)::infectedOnThisTurn
-            List.iter (fun (comp:Comp) -> comp.infect) infectedOnThisTurn
+            for i in 0 .. computers.Length - 1 do
+                if computers.Item(i).Status then 
+                    for j in 0 .. matrix.ColumnCount - 1 do
+                        if matrix.Item(i, j) > 0.0 then
+                            if (computers.Item j).Tick then infectedOnThisTurn <- computers.Item(j)::infectedOnThisTurn
+            List.iter (fun (comp:Comp) -> comp.Infect) infectedOnThisTurn
 
         // Current infection status of network.
-        member this.status =
-            List.map (fun (comp:Comp)  -> comp.status) this.computers
+        member this.Status =
+            List.map (fun (comp:Comp)  -> comp.Status) computers

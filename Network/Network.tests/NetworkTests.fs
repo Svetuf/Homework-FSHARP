@@ -1,4 +1,4 @@
-module Network.tests
+module Network.Tests
 
     open NUnit.Framework
     open Logic
@@ -17,8 +17,8 @@ module Network.tests
                             [-1.; -1.; 1.; 1.];
                            ] 
 
-    let mutable no_connection = matrix [[0.0]]
-    no_connection <- matrix  [
+    let mutable noConnection = matrix [[0.0]]
+    noConnection <- matrix  [
                             [1.; -1.; -1.; -1.]; 
                             [1.; 1.; 1.; -1.];
                             [-1.; 1.; 1.; 1.];
@@ -27,24 +27,24 @@ module Network.tests
 
     [<Test>]
     let AllInfect () =
-        let mutable network = Network.Create [Comp.Create MacOS true; Comp.Create MacOS false;
-        Comp.Create MacOS false; Comp.Create MacOS false] connections
+        let mutable network = Network([Comp(MacOS,true); Comp(MacOS, false);
+        Comp(MacOS, false); Comp(MacOS, false)],connections)
         for i in 0 .. 3 do
             network.Tick
-        network.status |> should equal [true; true; true; true]
+        network.Status |> should equal [true; true; true; true]
 
     [<Test>]
     let NoOneInfect () =
-        let mutable network = Network.Create [Comp.Create Windows true; Comp.Create Windows false;
-        Comp.Create Windows false; Comp.Create Windows false] connections
+        let mutable network = Network([Comp(Windows, true); Comp(Windows, false);
+        Comp(Windows, false); Comp(Windows, false)], connections)
         for i in 0 .. 1024 do
             network.Tick
-        network.status |> should equal [true; false; false; false]
+        network.Status |> should equal [true; false; false; false]
 
     [<Test>]
     let InfectButNotConnected () =
-        let mutable network = Network.Create [Comp.Create MacOS true; Comp.Create MacOS false;
-        Comp.Create MacOS false; Comp.Create MacOS false] no_connection
+        let mutable network = Network([Comp(MacOS, true); Comp(MacOS, false);
+        Comp(MacOS, false); Comp(MacOS, false)], noConnection)
         for _ in 0 .. 1024 do
             network.Tick
-        network.status |> should equal [true; false; false; false]
+        network.Status |> should equal [true; false; false; false]
