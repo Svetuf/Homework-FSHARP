@@ -6,7 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Program.fs" />
+    <Compile Include="Lazy.fs" />
+    <Compile Include="LazyFactory.fs" />
   </ItemGroup>
 
 </Project>
