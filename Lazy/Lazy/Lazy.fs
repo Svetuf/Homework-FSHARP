@@ -2,10 +2,10 @@
 
     open System.Threading
     
-    // Method interface.
+    /// Method to get a stared value.
     type ILazy<'a> = abstract member Get: unit -> 'a
 
-    // One thread type. Allow to get value of source.
+    /// One thread type. Allow to get value of source.
     type SingleThread<'a>(supplier) =
         let mutable source = None
 
@@ -17,7 +17,7 @@
                     source <- Some(supplier())
                     source.Value
 
-    // Multi thread type. Allow to get value, value calculate only once.
+    /// Multi thread type. Allow to get value, value calculate only once.
     type MultiThread<'a>(supplier) =
         let mutable source = None
         let locker = obj()
@@ -35,7 +35,7 @@
                                         source.Value
                                 )
 
-    // Lock-free multithreat realization. Value may calculate a lot of times, but write only one.
+    /// Lock-free multithreat realization. Value may calculate a lot of times, but write only one.
     type MultiThreadNoLock<'a>(supplier) =
         let mutable source = None
 
