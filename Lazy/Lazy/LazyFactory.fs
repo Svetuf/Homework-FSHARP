@@ -13,7 +13,3 @@
 
         /// Returns multi thread(lock-free) Lazy class with supplier.
         static member CreateMultiThreadNoLock supplier = MultiThreadNoLock<'a>(supplier)
-
-
-
-    
